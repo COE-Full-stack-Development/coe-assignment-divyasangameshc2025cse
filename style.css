@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 40px;
+}
+
+#profile-card {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #ffffff;
+  color: #222222;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+#profile-card button,
+#profile-card input {
+  padding: 8px 12px;
+  margin: 5px 0;
+}
+
+#skills-list li {
+  margin: 6px 0;
+}
+
+/* Dark theme for the profile card */
+#profile-card.dark-theme {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+#profile-card.dark-theme input {
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #777777;
+}
