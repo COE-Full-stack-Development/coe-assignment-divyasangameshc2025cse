@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   margin: 0;
@@ -35,4 +36,49 @@ body {
   background-color: #333333;
   color: #ffffff;
   border: 1px solid #777777;
+=======
+  font-family: Arial;
+  background: #eeeeee;
+  padding: 50px;
+}
+
+#profile-card {
+  width: 500px;
+  margin: auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(86, 79, 79, 0.764);
+}
+
+#profile-card h2 {
+  text-align: center;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#toggle-theme-btn {
+  background: #333;
+  color: white;
+}
+
+#skill-input {
+  padding: 8px;
+  width: 60%;
+}
+
+#add-skill-btn {
+  background: #4caf50;
+  color: white;
+}
+
+#skills-list li {
+  margin: 8px;
+  padding: 6px;
+>>>>>>> ad382d1 (completeted)
 }
